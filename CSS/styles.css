@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: cornflowerblue
+}
+
+#movies{
+    display: flex;
+    border: 10px groove blanchedalmond;
+    flex-direction: row;
+    z-index: 1;
+    overflow-y: scroll;
+    justify-content: space-between;
+    
+}
